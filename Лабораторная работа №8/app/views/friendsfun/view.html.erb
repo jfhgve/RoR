@@ -1,0 +1,11 @@
+<table border="1">
+  <caption>Дружественные числа</caption>
+  <tr>
+      <th>Первое число</th>
+      <th>Второе число</th>
+  </tr>
+  <% @new.map do |x| %>
+    <tr><td><%= x[0] if x[0]!=nil %></td><td><%= x[1] %></td></tr>
+  <% end %>
+
+</table>

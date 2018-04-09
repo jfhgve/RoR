@@ -1,0 +1,10 @@
+<h4>input</h4>
+<%= form_tag(sessions_create_path, :method => 'post') do %>
+    <%= label_tag ('login') %>
+    <%= text_field_tag :login %><br>
+    <%= label_tag('password') %>
+    <%= password_field_tag :password %><br>
+
+    <%= submit_tag ('logIn') %>
+<% end %>
+<p>New user? <%= link_to 'Sign up now!', signup_path %></p>

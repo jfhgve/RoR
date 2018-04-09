@@ -1,0 +1,168 @@
+Started GET "/" for 127.0.0.1 at 2017-12-26 16:53:50 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 1485ms (Views: 797.0ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=220&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-26 16:54:30 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"220", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 87ms (Views: 59.9ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=220&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-26 16:54:37 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"220", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 106ms (Views: 80.9ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=10000&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-26 16:54:53 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"10000", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29561ms (Views: 60.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-27 16:59:48 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 793ms (Views: 523.6ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=1000&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-27 17:00:03 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"1000", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 431ms (Views: 81.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-21 20:53:10 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (105.5ms)
+Completed 200 OK in 7155ms (Views: 4091.4ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=123&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-01-21 20:53:30 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"123", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 298ms (Views: 215.7ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=1230&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-01-21 20:53:38 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"1230", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 843ms (Views: 160.2ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=10000&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-01-21 20:53:59 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"10000", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40078ms (Views: 189.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-16 00:53:34 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 4705ms (Views: 2385.6ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=5122&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 00:53:46 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"5122", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16389ms (Views: 374.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-16 01:12:38 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 4603ms (Views: 2139.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-16 01:13:27 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 461ms (Views: 406.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-16 02:27:39 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (325.8ms)
+Completed 200 OK in 10314ms (Views: 2621.3ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=700&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:29:33 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"700", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 537ms (Views: 283.0ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=700&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:30:09 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"700", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 611ms (Views: 326.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-16 02:30:12 +0300
+Processing by FriendsfunController#input as HTML
+  Rendering friendsfun/input.html.erb within layouts/application
+  Rendered friendsfun/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 469ms (Views: 316.8ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=0&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:30:19 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"0", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 416ms (Views: 348.1ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=150&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:30:24 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"150", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 652ms (Views: 569.0ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=3360&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:30:29 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"3360", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5345ms (Views: 279.8ms)
+
+
+Started GET "/check_friend?utf8=%E2%9C%93&a=360&commit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2018-03-16 02:30:42 +0300
+Processing by FriendsfunController#view as HTML
+  Parameters: {"utf8"=>"✓", "a"=>"360", "commit"=>"Подтвердить"}
+  Rendering friendsfun/view.html.erb within layouts/application
+  Rendered friendsfun/view.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 453ms (Views: 331.4ms)
+
+

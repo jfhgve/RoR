@@ -1,0 +1,10 @@
+<div>
+  <%= form_tag('/input/answer.json', :method => 'get', remote: true, id:'frf') do %>`
+  <%= label_tag('Введите число') %>
+  <%= text_field_tag(:a) %>
+  <br/><br/>
+  <%= submit_tag('Подтвердить') %>
+  <% end %>
+</div>
+<div id="result">
+</div>

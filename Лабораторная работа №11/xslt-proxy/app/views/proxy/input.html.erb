@@ -1,0 +1,15 @@
+<%= form_tag('/proxy/output', :method => 'get')do %>
+    <%= label_tag('Input:') %>
+    <%= text_field_tag(:n) %> <br/>
+    <input type="radio" name="side" value="xml" id="xml">
+    выдать xml<br>
+
+    <input type="radio" name="side" value="server" id="server-side">
+    рендеринг на стороне сервера<br>
+
+    <input type="radio" name="side" value="client-with-xslt" id="client-side-xslt">
+    рендеринг на стороне браузера с xslt<br>
+
+    <%= submit_tag('result')%>
+<% end %>
+

@@ -1,0 +1,9 @@
+<h4>log in</h4>
+<%= form_for(@user) do |f|%>
+<%= f.label :login %>
+<%= f.text_field :login %><br>
+
+<%= f.label :password %>
+<%= f.password_field :password %><br>
+<%= f.submit "create my account" %>
+<%end%>

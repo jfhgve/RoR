@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Lab9</title>
+        <script>
+            tasks_url = location.protocol+"//"+location.host + "/input/answer.json"
+
+            function send_query() {
+                var frm = document.forms.input_form;
+                console.log(frm.a.value);
+                input_number ="?"+"n="+encodeURIComponent(frm.a.value);
+                if (input_number === "  ") return false
+                var my_JSON_object = {};
+                var http_request = new XMLHttpRequest();
+                http_request.open("GET" , tasks_url+input_number,true)
+                http_request.onreadystatechange = function () {
+                    var done = 4, ok = 200;
+
+                    if (http_request.readyState === done &&
+                        http_request.status === ok) {
+                     my_JSON_object =
+                         JSON.parse(http_request.responseText);
+                     show_result(my_JSON_object);
+                    }
+
+                };
+                http_request.send(null);
+                return false
+            }
+
+            function show_result(data) {
+                var result = document.getElementById("result");
+                result.innerHTML = data['value'];
+                console.log(data.value)
+            }
+        </script>
+    </head>
+
+    <body>
+        <form name = "input_form" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+            <label for="Input:">Input:</label>
+            <input type="text" name="a" id="a"> <br>
+            <input type="submit" name="commit" value="result"  onclick="return send_query();" data-disable-with="result">
+        </form>
+
+    <div id="result" >
+
+    </div>
+    </body>
+</html>
